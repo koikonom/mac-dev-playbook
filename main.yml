@@ -24,6 +24,9 @@
   tasks:
     - include: tasks/ansible-setup.yml
 
+    - include: tasks/zsh.yml
+      when: configure_zsh 
+
     - include: tasks/sudoers.yml
       when: configure_sudoers
 
