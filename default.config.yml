@@ -37,6 +37,8 @@ homebrew_cask_apps:
   - slack
   - 1password
   - google-drive
+  - skype
+  - spotify
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
