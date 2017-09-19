@@ -18,12 +18,24 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
+  - consul
+  - vault
+  - terraform
   - go
   - gpg
   - ssh-copy-id
   - weechat
   - tmux
+  - nmap
+  - awslogs
+  - awscli
+  - envchain
+  - docker
+  - docker-machine
+  - docker-machine-driver-xhyve
+  - jq
+  - govendor
+  - npm
 
 homebrew_taps:
   - homebrew/core
@@ -39,6 +51,7 @@ homebrew_cask_apps:
   - google-drive
   - skype
   - spotify
+  - alfred
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
@@ -58,7 +71,10 @@ gem_packages: []
   # - name: bundler
   #   state: present # present/absent/latest, default: present
   #   version: "~> 1.15.1" # default: N/A
-npm_packages: []
+npm_packages:
+  - name: pure-prompt
+    state: present
+
   # - name: webpack
   #   state: present # present/absent/latest, default: present
   #   version: "^2.6" # default: N/A
