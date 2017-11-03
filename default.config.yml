@@ -36,6 +36,8 @@ homebrew_installed_packages:
   - jq
   - govendor
   - npm
+  - packer
+  - fzf
 
 homebrew_taps:
   - homebrew/core
