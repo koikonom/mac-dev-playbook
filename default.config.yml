@@ -18,6 +18,7 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
+  - nomad
   - consul
   - vault
   - terraform
@@ -38,6 +39,8 @@ homebrew_installed_packages:
   - npm
   - packer
   - fzf
+  - vim
+  - pip
 
 homebrew_taps:
   - homebrew/core
