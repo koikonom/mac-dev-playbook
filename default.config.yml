@@ -31,9 +31,6 @@ homebrew_installed_packages:
   - awslogs
   - awscli
   - envchain
-  - docker
-  - docker-machine
-  - docker-machine-driver-xhyve
   - jq
   - govendor
   - npm
@@ -57,6 +54,7 @@ homebrew_cask_apps:
   - skype
   - spotify
   - alfred
+  - docker
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
